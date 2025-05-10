@@ -1,170 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <title>Meal & Workout Plan</title>
-  </head>
-  <body>
-    <h1>Weekly Meal Plan</h1>
-    <section id="meal-plan">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>7‑Day Meal & Workout Plan</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <div class="tabs">
+    <input type="radio" id="tab-meal" name="tabs" checked>
+    <label for="tab-meal">Meal Plan</label>
+
+    <input type="radio" id="tab-workout" name="tabs">
+    <label for="tab-workout">Workout Plan</label>
+
+    <section id="meal" class="tab-content">
       <article class="day">
         <h3>Day 1 (Mon)</h3>
         <ul>
-          <li>
-            <strong>Breakfast:</strong> Eggs 150 g (≈ 3) + egg whites 100 g;
-            steel‑cut oats 40 g; blueberries 100 g; flaxseed 7 g; avocado 50 g
-          </li>
-          <li>
-            <strong>Lunch:</strong> Grilled chicken 120 g; quinoa 50 g (dry);
-            kale 50 g + spinach 50 g; olive oil 10 g; tomatoes 50 g
-          </li>
-          <li>
-            <strong>Pre‑workout shake:</strong> Whey isolate 30 g; almond milk
-            250 mL; oats 20 g; banana 60 g
-          </li>
-          <li>
-            <strong>Dinner:</strong> Baked salmon 150 g; sweet potato 150 g;
-            broccoli 100 g; olive oil 10 g
-          </li>
+          <li><strong>Breakfast:</strong> Eggs 150 g (≈ 3 eggs) + egg whites 100 g; steel‑cut oats 40 g; blueberries 100 g; flaxseed 7 g; avocado 50 g</li>
+          <li><strong>Lunch:</strong> Grilled chicken 120 g; quinoa 50 g (dry); kale 50 g + spinach 50 g; olive oil 10 g; cherry tomatoes 50 g</li>
+          <li><strong>Pre‑workout shake:</strong> Whey isolate 30 g; almond milk 250 mL; oats 20 g; banana 60 g</li>
+          <li><strong>Dinner:</strong> Baked salmon 150 g; sweet potato 150 g; broccoli 100 g; olive oil 10 g</li>
           <li><strong>Optional snack:</strong> Greek yogurt 100 g (0 %)</li>
         </ul>
       </article>
 
+      <!-- Repeat Day 2 through Day 7 in the same format -->
       <article class="day">
         <h3>Day 2 (Tue)</h3>
         <ul>
-          <li>
-            <strong>Breakfast:</strong> Greek yogurt 200 g; raspberries 100 g;
-            chia seeds 10 g; walnuts 15 g; rye toast 40 g + boiled egg
-          </li>
-          <li>
-            <strong>Lunch:</strong> Lean turkey chili (turkey 120 g + lentils
-            60 g dry); salad 100 g + balsamic 10 mL
-          </li>
+          <li><strong>Breakfast:</strong> Greek yogurt 200 g; raspberries 100 g; chia seeds 10 g; walnuts 15 g; rye toast 40 g + boiled egg</li>
+          <li><strong>Lunch:</strong> Turkey chili (ground turkey 120 g + lentils 60 g dry); mixed greens 100 g; balsamic 10 mL</li>
           <li><strong>Shake:</strong> Whey 30 g + water 300 mL</li>
-          <li>
-            <strong>Dinner:</strong> Seared trout 150 g; wild rice 50 g (dry);
-            asparagus 100 g; avocado oil 5 g
-          </li>
+          <li><strong>Dinner:</strong> Seared trout 150 g; wild rice 50 g (dry); asparagus 100 g; avocado oil 5 g</li>
         </ul>
       </article>
 
       <article class="day">
-        <h3>Day 3 (Wed)</h3>
-        <ul>
-          <li>
-            <strong>Breakfast:</strong> Protein‑oat pancakes (oats 40 g + whey
-            20 g + cottage cheese 100 g + egg 1); almond butter 20 g;
-            strawberries 80 g
-          </li>
-          <li>
-            <strong>Lunch:</strong> Tuna 120 g + black beans 70 g dry + corn
-            50 g; veggies; olive oil 10 g + lime
-          </li>
-          <li>
-            <strong>Shake:</strong> Whey 30 g; almond milk 250 mL; mango 70 g
-          </li>
-          <li>
-            <strong>Dinner:</strong> Beef sirloin 150 g; mashed cauliflower
-            150 g; olive oil 10 g
-          </li>
-        </ul>
-      </article>
+      <h3>Day 3 (Wed)</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> Protein‑oat pancakes (oats 40 g + whey 20 g + cottage cheese 100 g + egg 1); almond butter 20 g; strawberries 80 g</li>
+        <li><strong>Lunch:</strong> Tuna 120 g + black beans 70 g dry + corn 50 g; veggies; olive oil 10 g + lime</li>
+        <li><strong>Shake:</strong> Whey 30 g; almond milk 250 mL; mango 70 g</li>
+        <li><strong>Dinner:</strong> Beef sirloin 150 g; mashed cauliflower 150 g; olive oil 10 g</li>
+      </ul>
+    </article>
 
-      <article class="day">
-        <h3>Day 4 (Thu)</h3>
-        <ul>
-          <li>
-            <strong>Breakfast:</strong> Omelette (eggs 2 + whites 100 g; spinach
-            75 g; feta 30 g) + buckwheat 45 g dry + butter 5 g
-          </li>
-          <li>
-            <strong>Lunch:</strong> Chickpea 90 g + avocado 50 g on whole‑grain
-            wrap 60 g; cucumber/tomato
-          </li>
-          <li><strong>Shake:</strong> Whey 30 g; water; apple 120 g</li>
-          <li>
-            <strong>Dinner:</strong> Cod 160 g + pesto 10 g; carrots 150 g;
-            quinoa 40 g dry
-          </li>
-        </ul>
-      </article>
+    <article class="day">
+      <h3>Day 4 (Thu)</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> Omelette (eggs 2 + whites 100 g; spinach 75 g; feta 30 g) + buckwheat 45 g dry + butter 5 g</li>
+        <li><strong>Lunch:</strong> Chickpea 90 g + avocado 50 g on whole‑grain wrap 60 g; cucumber/tomato</li>
+        <li><strong>Shake:</strong> Whey 30 g; water; apple 120 g</li>
+        <li><strong>Dinner:</strong> Cod 160 g + pesto 10 g; carrots 150 g; quinoa 40 g dry</li>
+      </ul>
+    </article>
 
-      <article class="day">
-        <h3>Day 5 (Fri)</h3>
-        <ul>
-          <li>
-            <strong>Breakfast:</strong> Overnight oats (oats 40 g + milk 150 mL
-            + whey 15 g + chia 10 g + banana 80 g + peanut butter 15 g)
-          </li>
-          <li>
-            <strong>Lunch:</strong> Chicken thigh 130 g; farro 45 g dry;
-            zucchini 100 g; hummus 40 g; olives 15 g
-          </li>
-          <li>
-            <strong>Shake:</strong> Whey 30 g; almond milk 250 mL; berries 60 g
-          </li>
-          <li>
-            <strong>Dinner:</strong> Turkey meatballs 160 g + marinara 100 g;
-            penne 55 g dry; green beans 100 g
-          </li>
-        </ul>
-      </article>
+    <article class="day">
+      <h3>Day 5 (Fri)</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> Overnight oats (oats 40 g + milk 150 mL + whey 15 g + chia 10 g + banana 80 g + peanut butter 15 g)</li>
+        <li><strong>Lunch:</strong> Chicken thigh 130 g; farro 45 g dry; zucchini 100 g; hummus 40 g; olives 15 g</li>
+        <li><strong>Shake:</strong> Whey 30 g; almond milk 250 mL; berries 60 g</li>
+        <li><strong>Dinner:</strong> Turkey meatballs 160 g + marinara 100 g; penne 55 g dry; green beans 100 g</li>
+      </ul>
+    </article>
 
-      <article class="day">
-        <h3>Day 6 (Sat)</h3>
-        <ul>
-          <li>
-            <strong>Breakfast:</strong> Smoked salmon 80 g on bagel thin 60 g +
-            cream cheese 20 g; egg whites 150 g; spinach 50 g
-          </li>
-          <li>
-            <strong>Lunch:</strong> Beef stir‑fry (steak 120 g; brown rice 50 g
-            dry; peppers 150 g; soy 15 mL; sesame oil 5 g)
-          </li>
-          <li><strong>Shake:</strong> Whey 30 g; water; pear 80 g</li>
-          <li>
-            <strong>Dinner:</strong> Shrimp 170 g; sweet potato 180 g; broccoli
-            100 g; olive oil 10 g
-          </li>
-        </ul>
-      </article>
+    <article class="day">
+      <h3>Day 6 (Sat)</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> Smoked salmon 80 g on bagel thin 60 g + cream cheese 20 g; egg whites 150 g; spinach 50 g</li>
+        <li><strong>Lunch:</strong> Beef stir‑fry (steak 120 g; brown rice 50 g dry; peppers 150 g; soy 15 mL; sesame oil 5 g)</li>
+        <li><strong>Shake:</strong> Whey 30 g; water; pear 80 g</li>
+        <li><strong>Dinner:</strong> Shrimp 170 g; sweet potato 180 g; broccoli 100 g; olive oil 10 g</li>
+      </ul>
+    </article>
 
-      <article class="day">
-        <h3>Day 7 (Sun)</h3>
-        <ul>
-          <li>
-            <strong>Breakfast:</strong> Veggie scramble (eggs 150 g + whites
-            100 g; mushrooms 80 g; peppers 60 g; onions 30 g); oats 35 g +
-            blueberries 80 g + flaxseed 7 g
-          </li>
-          <li>
-            <strong>Lunch:</strong> Sardines 110 g; quinoa 45 g dry; greens
-            100 g; olive oil 10 g; lemon
-          </li>
-          <li>
-            <strong>Shake:</strong> Whey 30 g; almond milk 250 mL; kiwi 70 g
-          </li>
-          <li>
-            <strong>Dinner:</strong> Chicken breast 150 g; Brussels sprouts
-            150 g; potato 160 g; avocado oil 10 g
-          </li>
-        </ul>
-      </article>
+    <article class="day">
+      <h3>Day 7 (Sun)</h3>
+      <ul>
+        <li><strong>Breakfast:</strong> Veggie scramble (eggs 150 g + whites 100 g; mushrooms 80 g; peppers 60 g; onions 30 g); oats 35 g + blueberries 80 g + flaxseed 7 g</li>
+        <li><strong>Lunch:</strong> Sardines 110 g; quinoa 45 g dry; greens 100 g; olive oil 10 g; lemon</li>
+        <li><strong>Shake:</strong> Whey 30 g; almond milk 250 mL; kiwi 70 g</li>
+        <li><strong>Dinner:</strong> Chicken breast 150 g; Brussels sprouts 150 g; potato 160 g; avocado oil 10 g</li>
+      </ul>
+    </article>
     </section>
 
-    <h1>Workout Routine</h1>
-    <section id="workout-plan">
+    <section id="workout" class="tab-content">
       <article class="day">
         <h3>Monday (Push + Cardio)</h3>
         <ul>
           <li>Bench press 4×8</li>
-          <li>Incline DB press 4×10</li>
+          <li>Incline dumbbell press 4×10</li>
           <li>Overhead press 4×12</li>
           <li>Cable fly 3×12</li>
-          <li>Triceps rope 3×15</li>
+          <li>Triceps rope pushdown 3×15</li>
           <li>30 min treadmill @ 7% incline, 6 km/h</li>
         </ul>
       </article>
@@ -176,65 +109,64 @@
           <li>Romanian deadlift 4×8</li>
           <li>Leg press 3×12</li>
           <li>Calf raise 3×15</li>
-          <li>Core circuit×3: plank 60 s; hanging knees 12; ab‑wheel 10</li>
+          <li>Core circuit×3: plank 60 s; hanging knee raises 12; ab‑wheel 10</li>
         </ul>
       </article>
 
-      <article class="day">
-        <h3>Wednesday (HIIT + Mobility)</h3>
-        <ul>
-          <li>Row intervals: 10×(1 min hard/1 min easy)</li>
-          <li>Kettlebell swings 4×15</li>
-          <li>Sled pushes 6×20 m</li>
-          <li>30 min mobility/foam‑roll</li>
-        </ul>
-      </article>
+        <article class="day">
+      <h3>Wednesday (HIIT + Mobility)</h3>
+      <ul>
+        <li>Row intervals: 10×(1 min hard/1 min easy)</li>
+        <li>Kettlebell swings 4×15</li>
+        <li>Sled pushes 6×20 m</li>
+        <li>30 min mobility/foam‑roll</li>
+      </ul>
+    </article>
 
-      <article class="day">
-        <h3>Thursday (Pull + Cardio)</h3>
-        <ul>
-          <li>Deadlift 4×6</li>
-          <li>Weighted pull‑up 4×10</li>
-          <li>Barbell row 3×12</li>
-          <li>Face‑pull 3×15</li>
-          <li>Biceps curl 3×12</li>
-          <li>30 min elliptical @ 70% HRmax</li>
-        </ul>
-      </article>
+    <article class="day">
+      <h3>Thursday (Pull + Cardio)</h3>
+      <ul>
+        <li>Deadlift 4×6</li>
+        <li>Weighted pull‑up 4×10</li>
+        <li>Barbell row 3×12</li>
+        <li>Face‑pull 3×15</li>
+        <li>Biceps curl 3×12</li>
+        <li>30 min elliptical @ 70% HRmax</li>
+      </ul>
+    </article>
 
-      <article class="day">
-        <h3>Friday (Legs Power + Core)</h3>
-        <ul>
-          <li>Front squat 4×6</li>
-          <li>Hip thrust 4×8</li>
-          <li>Bulgarian split squat 3×12</li>
-          <li>Ham curl 3×15</li>
-          <li>
-            Core×3: Russian twist 20; cable wood‑chop 12/side; plank‑ups 12
-          </li>
-        </ul>
-      </article>
+    <article class="day">
+      <h3>Friday (Legs Power + Core)</h3>
+      <ul>
+        <li>Front squat 4×6</li>
+        <li>Hip thrust 4×8</li>
+        <li>Bulgarian split squat 3×12</li>
+        <li>Ham curl 3×15</li>
+        <li>Core×3: Russian twist 20; cable wood‑chop 12/side; plank‑ups 12</li>
+      </ul>
+    </article>
 
-      <article class="day">
-        <h3>Saturday (MetCon)</h3>
-        <ul>
-          <li>
-            5‑exercise circuit×5 rounds:<br />
-            ‣ 10 burpees → 15 KB goblet squats → 12 DB push‑press → 250 m row →
-            15 ball slams<br />
-            Rest 2 min between rounds
-          </li>
-          <li>20 min brisk walk</li>
-        </ul>
-      </article>
+    <article class="day">
+      <h3>Saturday (MetCon)</h3>
+      <ul>
+        <li>5‑exercise circuit×5 rounds:<br>
+          ‣ 10 burpees → 15 KB goblet squats → 12 DB push‑press → 250 m row → 15 ball slams<br>
+          Rest 2 min between rounds</li>
+        <li>20 min brisk walk</li>
+      </ul>
+    </article>
 
-      <article class="day">
-        <h3>Sunday (LISS + Yoga)</h3>
-        <ul>
-          <li>60 min brisk walk or cycling @ 65% HRmax</li>
-          <li>30 min yoga/stretch</li>
-        </ul>
-      </article>
+    <article class="day">
+      <h3>Sunday (LISS + Yoga)</h3>
+      <ul>
+        <li>60 min brisk walk or cycling @ 65% HRmax</li>
+        <li>30 min yoga/stretch</li>
+      </ul>
+    </article>
+
+      
     </section>
-  </body>
+  </div>
+
+</body>
 </html>
